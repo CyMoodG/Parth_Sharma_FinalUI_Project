@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 1.5em;
+}
+header ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+header ul li {
+    margin: 0 15px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+header a:hover {
+    color: orange;
+}
+.contact-btn {
+    background-color: orange;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.contact-btn:hover {
+    background-color: darkorange;
+}
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.hero {
+    background-color: white;
+    padding: 60px 20px;
+}
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.hero .highlight {
+    color: orange;
+}
+.hero img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.about {
+    background-color: #fff;
+}
+.about h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+.about h3 {
+    color: orange;
+    margin-bottom: 20px;
+}
+.about img {
+    width: 150px;
+    border-radius: 50%;
+}
+.contact h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form .form-group {
+    margin-bottom: 15px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+form button:hover {
+    background-color: darkorange;
+}
+
+

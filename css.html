@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth Sharma's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Parth Sharma</div>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+            <a href="#contact" class="contact-btn">Contact Me</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="portfolio">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Parth Sharma</span><br>a Frontend Developer</h1>
+            <p>Hello , I am Parth Sharma of 10th grade . I study in Delhi Public School , GBN . This is my portfolio.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="/parth_profile.jpg" alt="parth">
+        </div>
+    </section>
+
+    <section class="about" id="services">
+        <div class="about-content">
+            <h2>About <span class="highlight">Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I have been interested in Robotics and Coding throughout my life and done projects like MagLev train( magnetic levitation train with obstacle detection alarm) Fire alarm Soil moisture detector ( indicates when the soil is dry) Small projects with servo motor , joystick , LED , etc. I know basic of Python and C++ (I use it in my Arduino programs).
+            </p>
+            <a href="#experience" class="btn secondary">Experience</a>
+        </div>
+        <div class="about-image">
+            <img src="parth_profile.jpg" alt="parth">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact <span class="highlight">Me</span></h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
